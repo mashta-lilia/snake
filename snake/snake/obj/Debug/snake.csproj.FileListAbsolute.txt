@@ -1,0 +1,29 @@
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\bin\Debug\snake.exe.config
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\bin\Debug\snake.exe
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\bin\Debug\snake.pdb
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.csproj.AssemblyReference.cache
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.menu.resources
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.Properties.Resources.resources
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.csproj.GenerateResource.cache
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.exe
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.pdb
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.play.resources
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.rules.resources
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.shop.resources
+C:\Users\Лилия\OneDrive\Рабочий стол\змейка\snake\snake\obj\Debug\snake.Lost.resources
+C:\змейка\snake\snake\bin\Debug\snake.exe.config
+C:\змейка\snake\snake\bin\Debug\snake.exe
+C:\змейка\snake\snake\bin\Debug\snake.pdb
+C:\змейка\snake\snake\obj\Debug\snake.csproj.AssemblyReference.cache
+C:\змейка\snake\snake\obj\Debug\snake.csproj.SuggestedBindingRedirects.cache
+C:\змейка\snake\snake\obj\Debug\snake.Lost.resources
+C:\змейка\snake\snake\obj\Debug\snake.menu.resources
+C:\змейка\snake\snake\obj\Debug\snake.play.resources
+C:\змейка\snake\snake\obj\Debug\snake.Properties.Resources.resources
+C:\змейка\snake\snake\obj\Debug\snake.rules.resources
+C:\змейка\snake\snake\obj\Debug\snake.shop.resources
+C:\змейка\snake\snake\obj\Debug\snake.csproj.GenerateResource.cache
+C:\змейка\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
+C:\змейка\snake\snake\obj\Debug\snake.exe
+C:\змейка\snake\snake\obj\Debug\snake.pdb

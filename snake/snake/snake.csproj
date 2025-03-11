@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABB30B7B-8B2A-4BAE-98C8-D5034C310D78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>snake</RootNamespace>
+    <AssemblyName>snake</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lost.Designer.cs">
+      <DependentUpon>Lost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shop.Designer.cs">
+      <DependentUpon>shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="play.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="play.Designer.cs">
+      <DependentUpon>play.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rules.Designer.cs">
+      <DependentUpon>rules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lost.resx">
+      <DependentUpon>Lost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="play.resx">
+      <DependentUpon>play.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rules.resx">
+      <DependentUpon>rules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shop.resx">
+      <DependentUpon>shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\349171_632_canny_pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1614135185_11-p-fon-dlya-igri-zmeika-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1614135239_2-p-fon-dlya-igri-zmeika-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1614135246_54-p-fon-dlya-igri-zmeika-58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1614135255_12-p-fon-dlya-igri-zmeika-13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd6537ed198522a9484d6ad41bce7f03.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fon-tekstura-detskaya-art-zmeya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker-png-drawing-grid-black-and-white-grid-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zmeya-snake-svetlyy-fon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zmeya-zelenyy-fon-minimalizm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext399676669733948.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext399678030217228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext399677824494098 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext399678406406997.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Полки-магазина.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-813187286-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0dfdfaa60987b81d017026c3348dbe7c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3980cf84a6bf02e16e3a2e91c49422f0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apricot_PNG12656.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grusha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-apple-desktop-fruit-apple-juice-food-fruit-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-apple-desktop-fruit-apple-juice-food-fruit-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\загружено-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\загружено__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext399862145105778.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1625545865_25-kartinkin-com-p-temnii-fon-neon-krasivie-foni-26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-4487690_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd6537ed198522a9484d6ad41bce7f031.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
